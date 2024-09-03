@@ -4,10 +4,18 @@ const ContactUs = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log("Service ID:", import.meta.env.VITE_SERVICE_ID);
+    console.log("Template ID:", import.meta.env.VITE_TEMPLATE_ID);
+    console.log("User ID:", import.meta.env.VITE_PUBLIC_KEY);
     emailjs
-      .sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current, {
-        publicKey: process.env.PUBLIC_KEY,
-      })
+      .sendForm(
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: import.meta.env.VITE_PUBLIC_KEY,
+        }
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -51,6 +59,7 @@ const ContactUs = () => {
                 <textarea
                   rows="4"
                   placeholder="Message"
+                  name="message"
                   className="w-full bg-gray-200 p-3 mb-4 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
                 ></textarea>
                 <div className="flex justify-center mt-4">

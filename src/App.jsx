@@ -13,8 +13,6 @@ function App() {
         <div className="absolute inset-0 bg-[url('./assets/grid.svg')] opacity-5 mix-blend-overlay"></div>
         <div className="bg-gradient-to-c from-transparent via-transparent to-white absolute inset-0 z-20"></div>
       </div>
-
-      {/* Main Content */}
       <div className="relative z-20">
         <Navbar />
         <div className="container mx-auto">
