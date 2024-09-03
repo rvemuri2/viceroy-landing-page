@@ -32,7 +32,7 @@ const Navbar = () => {
             <ul className="flex flex-row space-x-8 p-4">
               <li>
                 <a
-                  href="/"
+                  href="#aboutus"
                   className="text-gray-300 hover:text-white transition-colors duration-200 bg-white"
                 >
                   About Us
@@ -40,7 +40,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#works"
                   className="text-gray-300 capitalize hover:text-white transition-colors duration-200"
                 >
                   Why you should work with us
@@ -48,7 +48,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#ourteam"
                   className="text-gray-300 hover:text-white transition-colors duration-200"
                 >
                   Our Team
@@ -57,7 +57,10 @@ const Navbar = () => {
             </ul>
           </nav>
           <div className="hidden md:block">
-            <a className="bg-blue-600 px-4 py-2 rounded-md text-black cursor-pointer hover:bg-blue-800 transition-colors duration-200">
+            <a
+              className="bg-blue-600 px-4 py-2 rounded-md text-black cursor-pointer hover:bg-blue-800 transition-colors duration-200"
+              href="#contactus"
+            >
               Contact Us
             </a>
           </div>

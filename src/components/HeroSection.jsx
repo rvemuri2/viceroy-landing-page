@@ -11,12 +11,13 @@ const HeroSection = () => {
         </span>
       </h1>
       <br />
-      <h2 className="mt-5 text-gray-600 sm:text-xl">
+      <h2 className="mt-5 font-semibold text-black-600 sm:text-xl">
         Placeholder text, this will be a one line summary about Viceroy in
         general (This is not to replace the about me section).
       </h2>
       <div className="mt-5 items-center justify-center">
         <img
+          id="works"
           src={b2b}
           alt="b2b"
           className="mx-auto max-h-[300px] sm:max-h-[500px]"

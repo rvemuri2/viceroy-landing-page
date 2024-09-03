@@ -4,19 +4,19 @@ import { Menu, X } from "lucide-react";
 const navItems = [
   {
     title: "About Us",
-    url: "/",
+    url: "#aboutus",
   },
   {
     title: "Work With Us",
-    url: "/",
+    url: "#works",
   },
   {
     title: "Our Team",
-    url: "/",
+    url: "#aboutme",
   },
   {
     title: "Contact Us",
-    url: "/",
+    url: "#contactus",
   },
 ];
 
