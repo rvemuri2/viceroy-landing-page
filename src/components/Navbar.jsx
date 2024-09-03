@@ -6,7 +6,6 @@ const Navbar = () => {
   const { scrollY } = useScroll();
   const [scrolled, setScrolled] = useState(false);
   useMotionValueEvent(scrollY, "change", (latest) => {
-    console.log("Page scroll: ", latest);
     if (latest > 0 && !scrolled) {
       setScrolled(true);
     } else if (latest === 0 && scrolled) {
