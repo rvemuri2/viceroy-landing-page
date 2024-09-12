@@ -6,17 +6,17 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   return (
     <div className="sticky inset-x-0 top-0 w-full z-30 bg-black">
-      <div className="flex items-center justify-between space-x-8 w-[100%] px-16">
+      <div className="flex items-center justify-between space-x-8 w-[100%] lg:px-16 h-[100px]">
         <div className="">
           <a
-            className="bg-blue-600 px-4 py-2 rounded-md text-black cursor-pointer hover:bg-blue-800 transition-colors duration-200"
+            className="hidden md:block bg-blue-600 px-4 py-2 rounded-md text-black cursor-pointer hover:bg-blue-800 transition-colors duration-200"
             href="#contactus"
           >
             Contact Us
           </a>
         </div>
 
-        <div className="ml-auto">
+        <div className="absolute left-[40%] md:left-[45%]">
           <a href="/">
             <img
               src={logo}
