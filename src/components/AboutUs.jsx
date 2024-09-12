@@ -13,30 +13,16 @@ const AboutUs = () => {
         <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out h-full flex flex-col">
           <p className="text-3xl font-extrabold text-gray-800">Our Mission</p>
           <p className="text-xl text-gray-600 mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Empowering businesses with precision-crafted outreach strategies
+            that drive impactful first meetings and accelerate sales success.
           </p>
           <p className="text-base text-gray-500 mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum
-            pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in
-            ullamcorper quis vestibulum ligula elementum ut.Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Fermentum pulvinar
-            ullamcorper suspendisse ac eget. Pellentesque tempus leo in
-            ullamcorper quis vestibulum ligula elementum ut.Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Fermentum pulvinar
-            ullamcorper suspendisse ac eget. Pellentesque tempus leo in
-            ullamcorper quis vestibulum ligula elementum ut.Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Fermentum pulvinar
-            ullamcorper suspendisse ac eget. Pellentesque tempus leo in
-            ullamcorper quis vestibulum ligula elementum ut.Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Fermentum pulvinar
-            ullamcorper suspendisse ac eget. Pellentesque tempus leo in
-            ullamcorper quis vestibulum ligula elementum ut.Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Fermentum pulvinar
-            ullamcorper suspendisse ac eget. Pellentesque tempus leo in
-            ullamcorper quis vestibulum ligula elementum ut.Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Fermentum pulvinar
-            ullamcorper suspendisse ac eget. Pellentesque tempus leo in
-            ullamcorper quis vestibulum ligula elementum ut.
+            Viceroy Business Development is a boutique outbound sales
+            consultancy, specializing in top-of-funnel lead generation and
+            go-to-market research. Founded with an emphasis on high quality
+            outreach, Viceroy believes that a great first meeting sets the tone
+            for the entire sales process, and that the initial touchpoint has a
+            material effect on the likelihood of closing a deal.
           </p>
         </div>
       </div>

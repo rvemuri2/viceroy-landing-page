@@ -14,10 +14,6 @@ const navItems = [
     title: "Our Team",
     url: "#aboutme",
   },
-  {
-    title: "Contact Us",
-    url: "#contactus",
-  },
 ];
 
 const MobileMenu = () => {

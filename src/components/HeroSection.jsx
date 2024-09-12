@@ -1,4 +1,4 @@
-import b2b from "../assets/b2bagency.webp";
+import logo from "../assets/viceroy-transparent.png";
 const HeroSection = () => {
   return (
     <section className="hero-section text-center mt-32 flex flex-col">
@@ -6,19 +6,19 @@ const HeroSection = () => {
         Viceroy Business Development
         <br />
         <br />
-        <span className="bg-gradient-to-r from-pink-500 via-indigo-600 to-pink-500 bg-clip-text text-transparent transition-opacity">
+        <span className="bg-gradient-to-r from-red-400 via-pink-500 to-yellow-500 bg-clip-text text-transparent transition-opacity">
           Your Go to Market Engine
         </span>
       </h1>
       <br />
       <h2 className="mt-5 font-semibold text-black-600 sm:text-xl">
-        Placeholder text, this will be a one line summary about Viceroy in
-        general (This is not to replace the about me section).
+        Empowering your business with tailored outbound strategies, ensuring
+        meaningful connections and success-driven results every step of the way.
       </h2>
       <div className="mt-5 items-center justify-center">
         <img
           id="works"
-          src={b2b}
+          src={logo}
           alt="b2b"
           className="mx-auto max-h-[300px] sm:max-h-[500px]"
         />

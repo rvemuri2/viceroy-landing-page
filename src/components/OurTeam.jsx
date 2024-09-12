@@ -1,4 +1,5 @@
 import max from "../assets/max-simpson.jpeg";
+import deng from "../assets/deng_phua.jpg";
 
 const OurTeam = () => {
   return (
@@ -9,11 +10,11 @@ const OurTeam = () => {
       <div className="flex justify-center items-center">
         <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row gap-40">
           <div className="relative flex flex-col text-gray-700 bg-black shadow-md bg-clip-border rounded-xl w-96">
-            <div className="relative h-120 mx-4 -mt-6 overflow-hidden shadow-lg rounded-xl">
+            <div className="relative h-96 mx-4 -mt-6 overflow-hidden shadow-lg rounded-xl">
               <img
                 src={max}
                 alt="Max Simpson"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
               />
             </div>
             <div className="p-6">
@@ -21,41 +22,38 @@ const OurTeam = () => {
                 Max Simpson
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Odio
-                suscipit sem consectetur dis adipiscing torquent erat praesent.
-                Curabitur proin velit tincidunt odio in vitae. Cras vel sagittis
-                non sit, amet leo mus. Commodo egestas fames natoque cubilia
-                amet ad. Proin faucibus sociosqu conubia integer efficitur ante.
-                Ligula porttitor lobortis eget taciti tempus montes eget
-                penatibus. Quis purus accumsan fames varius imperdiet inceptos
-                erat.
+                Max approaches sales from a technical lens. After spending
+                several years as a software engineer, Max understands how to
+                translate difficult technical concepts into salient outreach,
+                ensuring that he trains his team to pitch highly technical
+                products and get those products in front of the niche personas
+                that can properly evaluate them.
               </p>
             </div>
             <div className="p-6 pt-0"></div>
           </div>
 
-          {/* Second Card */}
           <div className="relative flex flex-col text-gray-700 bg-black shadow-md bg-clip-border rounded-xl w-96">
-            <div className="relative h-120 mx-4 -mt-6 overflow-hidden shadow-lg rounded-xl">
+            <div className="relative h-96 mx-4 -mt-6 overflow-hidden shadow-lg rounded-xl">
               <img
-                src={max}
-                alt="Max Simpson"
-                className="w-full h-full object-cover"
+                src={deng}
+                alt="Deng Phua"
+                className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-extrabold leading-snug tracking-normal text-white">
-                Max Simpson
+                Deng Phua
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Odio
-                suscipit sem consectetur dis adipiscing torquent erat praesent.
-                Curabitur proin velit tincidunt odio in vitae. Cras vel sagittis
-                non sit, amet leo mus. Commodo egestas fames natoque cubilia
-                amet ad. Proin faucibus sociosqu conubia integer efficitur ante.
-                Ligula porttitor lobortis eget taciti tempus montes eget
-                penatibus. Quis purus accumsan fames varius imperdiet inceptos
-                erat.
+                Deng Phua (Don Pearlman) has an extensive career in business
+                development in the technology and SaaS industries. He has
+                personally proved out cold calling as a viable, and strong
+                method of executing on countless companies’ GTM initiatives. He
+                has trained countless Sales Development Executives for various
+                businesses and believes that the age of AI and automation in
+                today’s cold outreach paves the way for a new era of human
+                connection and communication.
               </p>
             </div>
             <div className="p-6 pt-0"></div>

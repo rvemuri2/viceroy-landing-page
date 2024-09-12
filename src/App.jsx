@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="w-screen min-h-screen fixed z-10 flex justify-center px-6 py-40 pointer-events-none bg-beige">
+      <div className="w-screen min-h-screen fixed z-10 flex justify-center px-6 py-40 pointer-events-none bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500">
         <div className="absolute inset-0 bg-[url('./assets/grid.svg')] opacity-5 mix-blend-overlay"></div>
         <div className="bg-gradient-to-c from-transparent via-transparent to-white absolute inset-0 z-20"></div>
       </div>
