@@ -1,4 +1,4 @@
-import logo from "../assets/viceroy-transparent.png";
+import logo from "../assets/viceroy-white.png";
 import { useState } from "react";
 import { useScroll, useMotionValueEvent } from "framer-motion";
 import MobileMenu from "./MobileMenu";
