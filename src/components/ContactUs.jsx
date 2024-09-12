@@ -39,7 +39,7 @@ const ContactUs = () => {
           <div className="flex flex-1 h-[460px] bg-black justify-center items-center">
             <div className="w-4/5 h-4/5 text-center">
               <form ref={form} onSubmit={sendEmail}>
-                <h2 className="text-2xl mb-4 hidden md:block">
+                <h2 className="text-2xl mb-4 hidden md:block text-white">
                   Please Fill in the Information
                 </h2>
                 <p className="text-left text-xs mb-4 text-white">* Required</p>
@@ -47,20 +47,20 @@ const ContactUs = () => {
                   type="text"
                   placeholder="Name *"
                   name="user_name"
-                  className="w-full bg-gray-200 p-3 mb-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  className="w-full bg-gray-700 p-3 mb-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
                 />
                 <input
                   type="email"
                   placeholder="Email *"
                   name="user_email"
-                  className="w-full bg-gray-200 p-3 mb-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  className="w-full bg-gray-700 p-3 mb-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
                 />
 
                 <textarea
                   rows="4"
                   placeholder="Message"
                   name="message"
-                  className="w-full bg-gray-200 p-3 mb-4 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  className="w-full bg-gray-700 p-3 mb-4 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
                 ></textarea>
                 <div className="flex justify-center mt-4">
                   <button

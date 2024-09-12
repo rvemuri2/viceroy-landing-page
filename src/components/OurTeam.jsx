@@ -21,7 +21,7 @@ const OurTeam = () => {
               <h5 className="block mb-2 font-sans text-xl antialiased font-extrabold leading-snug tracking-normal text-white">
                 Max Simpson
               </h5>
-              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit text-[#374151]">
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit text-gray-100">
                 Max approaches sales from a technical lens. After spending
                 several years as a software engineer, Max understands how to
                 translate difficult technical concepts into salient outreach,
@@ -33,7 +33,7 @@ const OurTeam = () => {
             <div className="p-6 pt-0"></div>
           </div>
 
-          <div className="relative flex flex-col text-gray-700 bg-black shadow-md bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col text-gray-100 bg-black shadow-md bg-clip-border rounded-xl w-96">
             <div className="relative h-96 mx-4 -mt-6 overflow-hidden shadow-lg rounded-xl">
               <img
                 src={deng}
