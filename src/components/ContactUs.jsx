@@ -42,7 +42,7 @@ const ContactUs = () => {
                 <h2 className="text-2xl mb-4 hidden md:block">
                   Please Fill in the Information
                 </h2>
-                <p className="text-left text-xs mb-4">* Required</p>
+                <p className="text-left text-xs mb-4 text-white">* Required</p>
                 <input
                   type="text"
                   placeholder="Name *"
