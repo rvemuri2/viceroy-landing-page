@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between space-x-8 w-[100%] lg:px-16 h-[100px]">
         <div className="">
           <a
-            className="hidden md:block bg-blue-600 px-4 py-2 rounded-md text-black cursor-pointer hover:bg-blue-800 transition-colors duration-200"
+            className="hidden md:block bg-blue-600 px-4 py-2 rounded-md text-white cursor-pointer hover:bg-blue-800 transition-colors duration-200"
             href="#contactus"
           >
             Contact Us

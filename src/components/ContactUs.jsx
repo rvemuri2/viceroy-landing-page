@@ -34,9 +34,9 @@ const ContactUs = () => {
       >
         Contact Us
       </h2>
-      <div className="container mx-auto bg-white rounded-lg shadow-lg max-w-full min-h-[480px] min-w-[370px]">
+      <div className="container mx-auto bg-black rounded-lg shadow-lg max-w-full min-h-[480px] min-w-[370px]">
         <div className="flex">
-          <div className="flex flex-1 h-[460px] bg-white justify-center items-center">
+          <div className="flex flex-1 h-[460px] bg-black justify-center items-center">
             <div className="w-4/5 h-4/5 text-center">
               <form ref={form} onSubmit={sendEmail}>
                 <h2 className="text-2xl mb-4 hidden md:block">

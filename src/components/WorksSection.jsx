@@ -11,7 +11,7 @@ const WorksSection = () => {
           {works.map((work, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out h-full flex flex-col"
+              className="bg-black border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out h-full flex flex-col"
             >
               <h3 className="font-semibold text-2xl text-indigo-700 mb-2">
                 {work.title}

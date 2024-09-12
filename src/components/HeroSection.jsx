@@ -2,7 +2,7 @@ import logo from "../assets/viceroy-transparent.png";
 const HeroSection = () => {
   return (
     <section className="hero-section text-center mt-32 flex flex-col">
-      <h1 className="text-4xl font-extrabold leading-[1.15] text-black sm:text-6xl sm:leading">
+      <h1 className="text-4xl font-extrabold leading-[1.15] sm:text-6xl sm:leading text-white">
         Viceroy Business Development
         <br />
         <br />
@@ -11,7 +11,7 @@ const HeroSection = () => {
         </span>
       </h1>
       <br />
-      <h2 className="mt-5 font-semibold text-black-600 sm:text-xl">
+      <h2 className="mt-5 font-semibold text-gray-100 sm:text-xl">
         Empowering your business with tailored outbound strategies, ensuring
         meaningful connections and success-driven results every step of the way.
       </h2>

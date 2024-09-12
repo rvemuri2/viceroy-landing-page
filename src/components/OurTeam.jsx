@@ -21,7 +21,7 @@ const OurTeam = () => {
               <h5 className="block mb-2 font-sans text-xl antialiased font-extrabold leading-snug tracking-normal text-white">
                 Max Simpson
               </h5>
-              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit text-[#374151]">
                 Max approaches sales from a technical lens. After spending
                 several years as a software engineer, Max understands how to
                 translate difficult technical concepts into salient outreach,
