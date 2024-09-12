@@ -6,12 +6,14 @@ const AboutUs = () => {
       </h2>
       <div className="flex flex-col justify-center lg:flex-row items-center mb-12">
         <div className="bg-black border border-gray-200 rounded-lg shadow-lg p-10 w-full max-w-3xl h-auto lg:w-3/4 lg:h-auto hover:shadow-xl transition-shadow duration-300 ease-in-out">
-          <p className="text-3xl font-extrabold text-gray-200">Our Mission</p>
-          <p className="text-xl text-gray-400 mt-4">
+          <p className="text-3xl font-extrabold text-gray-200 leading-8 text-center">
+            Our Mission
+          </p>
+          <p className="text-xl text-gray-400 mt-8 my-10 leading-10 text-center">
             Empowering businesses with precision-crafted outreach strategies
             that drive impactful first meetings and accelerate sales success.
           </p>
-          <p className="text-base text-gray-500 mt-4">
+          <p className="text-base text-gray-500 mt-4 leading-8 text-center">
             Viceroy Business Development is a boutique outbound sales
             consultancy, specializing in top-of-funnel lead generation and
             go-to-market research. Founded with an emphasis on high quality
