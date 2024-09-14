@@ -2,7 +2,7 @@ export const works = [
   {
     title: "10x Pipeline Growth",
     description:
-      "Grow your pipeline 10x with an out of the box outbound team! Leverage a high-performing outbound team that brings innovative strategies to rapidly scale your sales pipeline, delivering more qualified leads and opportunities.",
+      "Grow your pipeline 10x with an out of the box outbound team Leverage a high-performing outbound team that brings innovative strategies to rapidly scale your sales pipeline, delivering more qualified leads and opportunities.",
   },
   {
     title: "Pay for Success",
