@@ -16,7 +16,7 @@ const WorksSection = () => {
               <h3 className="font-semibold text-2xl text-indigo-700 mb-2 text-center">
                 {work.title}
               </h3>
-              <p className="text-gray-600 mb-4 text-center my-3 leading-8">
+              <p className="text-white mb-4 text-center my-3 leading-8">
                 {work.description}
               </p>
             </div>
