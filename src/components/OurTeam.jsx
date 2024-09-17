@@ -4,7 +4,10 @@ import deng from "../assets/deng_phua.jpg";
 const OurTeam = () => {
   return (
     <section>
-      <h2 className="font-extrabold text-3xl mb-20 pt-20 text-center text-white uppercase">
+      <h2
+        className="font-extrabold text-3xl mb-20 pt-20 text-center text-white uppercase"
+        id="ourteam"
+      >
         Our Team
       </h2>
       <div className="flex justify-center items-center">

@@ -12,7 +12,7 @@ const navItems = [
   },
   {
     title: "Our Team",
-    url: "#aboutme",
+    url: "#ourteam",
   },
   {
     title: "Contact Us",
