@@ -32,7 +32,7 @@ const MobileMenu = () => {
       ) : (
         <>
           <button onClick={() => setNavOpen(false)}>
-            <X size={32} />
+            <X size={32} color="white" />
           </button>
           <div className="absolute left-0 w-full top-20 bg-black/60 backdrop-blur-lg border-b border-t">
             <ul className="flex flex-col py-1 items-center">
