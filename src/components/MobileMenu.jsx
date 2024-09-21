@@ -27,7 +27,7 @@ const MobileMenu = () => {
     <div className="block md:hidden">
       {!navOpen ? (
         <button onClick={() => setNavOpen(true)}>
-          <Menu size={32} />
+          <Menu size={32} color="white" />
         </button>
       ) : (
         <>
