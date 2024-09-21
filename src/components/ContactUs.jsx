@@ -4,9 +4,6 @@ const ContactUs = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log("Service ID:", import.meta.env.VITE_SERVICE_ID);
-    console.log("Template ID:", import.meta.env.VITE_TEMPLATE_ID);
-    console.log("User ID:", import.meta.env.VITE_PUBLIC_KEY);
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
